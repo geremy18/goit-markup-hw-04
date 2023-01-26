@@ -92,7 +92,7 @@ header {
   background: #2196f3;
   position: absolute;
   border-radius: 2px;
-  top: 70px;
+  top: 68px;
 }
 
 .selector-nav-portafolio {
@@ -104,7 +104,7 @@ header {
   background: #2196f3;
   position: absolute;
   border-radius: 2px;
-  top: 70px;
+  top: 66px;
 }
 
 .nav-dt {
@@ -153,6 +153,7 @@ header {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  gap: 30px;
 }
 
 .datos-contacto li {
@@ -161,7 +162,6 @@ header {
 }
 
 .correo {
-  margin-right: 80px;
   display: flex;
   align-items: center;
 }
@@ -171,11 +171,11 @@ header {
   color: #757575;
 }
 
-.datos-contacto li a:hover {
-  color: #2196f3;
-}
-
-.datos-contacto li a:focus {
+.icono-nav-tc:hover,
+.icon-nav:hover,
+.icono-nav-tc:focus,
+.icon-nav:focus {
+  fill: #2196f3;
   color: #2196f3;
 }
 
@@ -203,6 +203,7 @@ header {
 .button-servicios {
   background-color: #2196f3;
   border-color: #2196f3;
+  border: none;
   color: #fff;
   font-size: 16px;
   font-weight: 700;
@@ -215,12 +216,10 @@ header {
 
 .button-servicios:hover {
   background-color: #0e77cc;
-  border-color: #0e77cc;
 }
 
 .button-servicios:focus {
   background-color: #0e77cc;
-  border-color: #0e77cc;
 }
 
 .datos-servicios {
@@ -494,12 +493,15 @@ header {
 }
 
 .box-icon {
+  background-color: #fff;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
   display: flex;
+  fill: #757575;
+  cursor: pointer;
 }
 
 .icon-social-pr {
@@ -515,20 +517,16 @@ header {
 .icon-social {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .box-icon:hover,
 .box-icon:focus {
-  border-radius: 50%;
-  background-color: #2196f3;
-}
-
-.icon-social:hover,
-.icon-social:focus {
-  fill: white;
+  background: #2196f3;
+  fill: #fff;
 }
 
 .logos-clientes h2 {
@@ -551,25 +549,22 @@ header {
 
 .icon-cliente {
   border-radius: 4px;
-  border: #afb1b8 1px solid;
+  border: 1px solid;
+  border-color: #afb1b8;
   margin-top: 44px;
+  cursor: pointer;
+  fill: #afb1b8;
 }
 
 .icon-cl {
   width: 106px;
   height: 52px;
   margin: 14px 32px;
-  fill: #afb1b8;
 }
 
 .icon-cliente:hover,
 .icon-cliente:focus {
-  border-radius: 4px;
-  border: #2196f3 1px solid;
-}
-
-.icon-cl:hover,
-.icon-cl:focus {
+  border-color: #2196f3;
   fill: #2196f3;
 }
 
@@ -661,20 +656,13 @@ footer {
 .icon-nav-t {
   width: 10px;
   height: 16px;
-  fill: #757575;
+  fill: currentColor;
 }
 
 .icon-nav-c {
   width: 16px;
   height: 12px;
-  fill: #757575;
-}
-
-.icon-nav-t:hover,
-.icon-nav-t:focus,
-.icon-nav-c:hover,
-.icon-nav-c:focus {
-  fill: #2196f3;
+  fill: currentColor;
 }
 
 .box-footer-social p {
