@@ -83,19 +83,33 @@ header {
   display: flex;
 }
 
-.selector-nav {
+.selector-nav-estudio {
   justify-content: center;
   align-items: center;
-  width: 48px;
+  width: fit-content;
+  min-width: 47.03px;
   height: 4px;
-  background: #fff;
-  border-radius: 2px;
+  background: #2196f3;
   position: absolute;
-  top: 58px;
+  border-radius: 2px;
+  top: 66px;
 }
 
-.selector-nav:hover {
+.selector-nav-portafolio {
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  min-width: 62.39px;
+  height: 4px;
   background: #2196f3;
+  position: absolute;
+  border-radius: 2px;
+  top: 66px;
+}
+
+.nav-dt {
+  display: flex;
+  align-items: center;
 }
 
 .link-nav {
@@ -112,6 +126,7 @@ header {
 .link-nav li {
   list-style: none;
   position: relative;
+  margin: 0;
 }
 
 .link-nav li a {
@@ -148,6 +163,7 @@ header {
 .correo {
   margin-right: 80px;
   display: flex;
+  align-items: center;
 }
 
 .datos-contacto li a {
@@ -166,7 +182,7 @@ header {
 /* body */
 
 .titulo {
-  background-image: url(../images/cabezote.png);
+  background: rgba(47, 48, 58, 0.4) url(../images/cabezote.png);
   padding-bottom: 200px;
   padding-top: 200px;
   text-align: center;
@@ -628,6 +644,7 @@ footer {
 
 .telefono {
   display: flex;
+  align-items: center;
 }
 
 .f-telefono {
@@ -724,14 +741,17 @@ hr {
   cursor: pointer;
 }
 
+.main-portafolio {
+  border-top: 1px solid #ececec;
+}
+
 .btt1 {
-  width: 73px;
-  height: 38px;
+  padding: 6px 27px;
+  border: none;
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  border-color: #2196f3;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -741,34 +761,31 @@ hr {
 }
 
 .btt2 {
-  width: 128px;
-  height: 38px;
+  padding: 6px 24px;
   background: #f5f4fa;
   border-radius: 4px;
-  border-color: #f5f4fa;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.1;
   text-align: center;
   color: #212121;
+  border: none;
 }
 
-.btt2:hover {
-  background-color: #2196f3;
-  color: #fff;
-}
-
+.btt2:hover,
 .btt2:focus {
   background-color: #2196f3;
   color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .btt3 {
-  width: 145px;
-  height: 38px;
+  padding: 6px 24px;
+  border: none;
   background: #f5f4fa;
   border-radius: 4px;
-  border-color: #f5f4fa;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -777,22 +794,19 @@ hr {
   color: #212121;
 }
 
-.btt3:hover {
-  background-color: #2196f3;
-  color: #fff;
-}
-
+.btt3:hover,
 .btt3:focus {
   background-color: #2196f3;
   color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btt4 {
-  width: 103px;
-  height: 38px;
+  padding: 6px 25px;
+  border: none;
   background: #f5f4fa;
   border-radius: 4px;
-  border-color: #f5f4fa;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -801,22 +815,19 @@ hr {
   color: #212121;
 }
 
-.btt4:hover {
-  background-color: #2196f3;
-  color: #fff;
-}
-
+.btt4:hover,
 .btt4:focus {
   background-color: #2196f3;
   color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btt5 {
-  width: 130px;
-  height: 38px;
+  padding: 6px 26px;
+  border: none;
   background: #f5f4fa;
   border-radius: 4px;
-  border-color: #f5f4fa;
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
@@ -841,6 +852,7 @@ hr {
   flex-wrap: wrap;
   padding-inline-start: 0;
   padding-bottom: 82px;
+  gap: 30px;
 }
 
 .paginas li {
@@ -856,7 +868,6 @@ hr {
   border: 1px solid #eeeeee;
   width: 370px;
   height: 404px;
-  margin: 30px 30px;
 }
 
 .conte:hover {
