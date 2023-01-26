@@ -171,6 +171,11 @@ header {
   color: #757575;
 }
 
+.icono-nav-tc {
+  display: flex;
+  gap: 10px;
+}
+
 .icono-nav-tc:hover,
 .icon-nav:hover,
 .icono-nav-tc:focus,
