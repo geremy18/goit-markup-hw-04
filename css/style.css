@@ -92,7 +92,7 @@ header {
   background: #2196f3;
   position: absolute;
   border-radius: 2px;
-  top: 66px;
+  top: 70px;
 }
 
 .selector-nav-portafolio {
@@ -104,7 +104,7 @@ header {
   background: #2196f3;
   position: absolute;
   border-radius: 2px;
-  top: 66px;
+  top: 70px;
 }
 
 .nav-dt {
@@ -182,7 +182,7 @@ header {
 /* body */
 
 .titulo {
-  background: rgba(47, 48, 58, 0.4) url(../images/cabezote.png);
+  background: url(../images/cabezote.png) center no-repeat;
   padding-bottom: 200px;
   padding-top: 200px;
   text-align: center;
