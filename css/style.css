@@ -231,14 +231,13 @@ header {
   display: flex;
   margin: auto;
   padding-inline-start: 0;
-  padding-bottom: 94px;
   gap: 30px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .datos-servicios li {
   list-style: none;
-  padding-top: 95px;
-  padding-bottom: 95px;
   flex-basis: calc((100%-46px) / 3);
 }
 
@@ -263,12 +262,12 @@ header {
   background-color: #f5f4fa;
   justify-content: center;
   align-items: center;
+  padding: 25px 102px;
 }
 
 .box-icon-servicios {
   width: 50px;
   height: 50px;
-  margin: 25px 102px;
 }
 
 .container-servicios {
@@ -287,6 +286,7 @@ header {
   justify-content: space-between;
   gap: 30px;
   position: relative;
+  margin-top: 50px;
 }
 
 .servicios h2 {
@@ -298,7 +298,6 @@ header {
 }
 
 .servicios-lista li {
-  margin-top: 50px;
   list-style: none;
 }
 
@@ -550,21 +549,21 @@ header {
   align-items: center;
   gap: 30px;
   padding-bottom: 130px;
+  margin-top: 44px;
 }
 
 .icon-cliente {
   border-radius: 4px;
   border: 1px solid;
   border-color: #afb1b8;
-  margin-top: 44px;
   cursor: pointer;
   fill: #afb1b8;
+  padding: 14px 32px;
 }
 
 .icon-cl {
   width: 106px;
   height: 52px;
-  margin: 14px 32px;
 }
 
 .icon-cliente:hover,
@@ -678,7 +677,7 @@ footer {
   line-height: 1.1;
   color: #fff;
   margin: 0;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .box-social-f {
@@ -696,6 +695,7 @@ footer {
   align-items: center;
   display: flex;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .icon-social-f {
@@ -748,7 +748,7 @@ hr {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.7;
   text-align: center;
   color: #fff;
 }
@@ -760,7 +760,7 @@ hr {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.7;
   text-align: center;
   color: #212121;
   border: none;
@@ -782,7 +782,7 @@ hr {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.7;
   text-align: center;
   color: #212121;
 }
@@ -803,7 +803,7 @@ hr {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.7;
   text-align: center;
   color: #212121;
 }
@@ -824,7 +824,7 @@ hr {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.7;
   text-align: center;
   color: #212121;
 }
@@ -891,6 +891,5 @@ hr {
 }
 
 .textos-conte {
-  width: 322px;
   padding: 20px 24px;
 }
